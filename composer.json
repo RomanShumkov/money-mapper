@@ -1,0 +1,20 @@
+{
+    "name": "roman-shumkov/money-mapper",
+    "description": "ORM for mathiasverraes/money",
+    "homepage": "https://github.com/RomanShumkov/money-mapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Shumkov",
+            "email": "roman@shumkov.lv"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "mathiasverraes/money": "1.2.*"
+    },
+    "autoload": {
+        "psr-0": { "Lv\\Shumkov\\MoneyMapper": "src/" }
+    }
+}
